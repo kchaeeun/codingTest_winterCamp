@@ -13,12 +13,8 @@
 |participant   |completion   |return   |
 |---|---|--:|
 |["leo", "kiki", "eden"]   |["eden", "kiki"]   |"leo"   |
-|   |   |   |
-|   |   |   |
-participant	completion	return
-		
-["marina", "josipa", "nikola", "vinko", "filipa"]	["josipa", "filipa", "marina", "nikola"]	"vinko"
-["mislav", "stanko", "mislav", "ana"]	["stanko", "ana", "mislav"]	"mislav"
+|["marina", "josipa", "nikola", "vinko", "filipa"]   |["josipa", "filipa", "marina", "nikola"]   |"vinko"   |
+|["mislav", "stanko", "mislav", "ana"]   |["stanko", "ana", "mislav"]   |"mislav"   |	
 
 # 입출력 예 설명
 예제 #1
