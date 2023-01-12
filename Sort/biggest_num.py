@@ -9,4 +9,4 @@ def solution(numbers):
     else:
         answer=''.join(numbers)                               #numbers 리스트 값을 앞에서부터 차례대로 join(연결)해준다.
         
-    return answerer
+    return answer
