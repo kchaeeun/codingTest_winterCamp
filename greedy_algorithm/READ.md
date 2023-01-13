@@ -1,5 +1,4 @@
 * [체육복](https://github.com/kchaeeun/codingTest_winterCamp/blob/master/greedy_algorithm/READ.md#1-%EC%B2%B4%EC%9C%A1%EB%B3%B5-%EB%AC%B8%EC%A0%9C-%EC%84%A4%EB%AA%85)
-<br>
 * [큰 수 만들기](https://github.com/kchaeeun/codingTest_winterCamp/blob/master/greedy_algorithm/READ.md#2-%ED%81%B0-%EC%88%98-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EB%AC%B8%EC%A0%9C-%EC%84%A4%EB%AA%85)
 
 # 1. [체육복] 문제 설명
