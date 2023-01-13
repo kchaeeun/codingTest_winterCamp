@@ -1,7 +1,7 @@
 def solution(N,number):
     s=[set() for _ in range(8)]                 #set은 중복되는 숫자를 제거함
-    for i,x in enumerate(s, start=1):           #i는 1부터 시작(x는 인덱스 0부터 시작하기 위해 인덱스 start값을 정해줌)
-        x.add(int(str(N)*i))
+    for idx,x in enumerate(s, start=1):         #idx는 1부터 시작(x는 인덱스 0부터 시작하기 위해 인덱스 start값을 정해줌)
+        x.add(int(str(N)*idx))
 
     for i in range(len(s)):                     #N와 number가 같은 경우 1개만 사용하는 경우도 포함해야함(0~len(s)-1)
         for j in range(i):
@@ -11,10 +11,10 @@ def solution(N,number):
                     s[i].add(op1-op2)
                     s[i].add(op1*op2)
                     if op2 != 0:
-                        s[i].add(op1 // op2)    #분모가 0인 경우는 나눗셈 불가, 나머지는 무시 (몫 구하는 연산 사)
+                        s[i].add(op1 // op2)    #분모가 0인 경우는 나눗셈 불가, 나머지는 무시 (몫 구하는 연산 사용)
         
         if number in s[i]:
-            answer =i+1                         #i(인덱스)값이 0부터 시작하고 있기 때
+            answer =i+1                         #i(인덱스)값이 0부터 시작하고 있기 때문
             break
 
     else:                                       #for문 속 break가 발생하지 않을 때의 경우(number가 s안에 없는 경우)
