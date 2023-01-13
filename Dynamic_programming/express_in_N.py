@@ -23,4 +23,4 @@ def solution(N,number):
 
     return answer
 
-print(solution(4,4))
+#print(solution(4,4))
