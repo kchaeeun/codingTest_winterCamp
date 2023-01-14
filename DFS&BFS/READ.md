@@ -25,3 +25,7 @@
 예제 #2
 
 ["ICN", "SFO", "ATL", "ICN", "ATL", "SFO"] 순으로 방문할 수도 있지만 ["ICN", "ATL", "ICN", "SFO", "ATL", "SFO"] 가 알파벳 순으로 앞섭니다.
+
+# 부연 설명
+* 예제 #2)의 tickets의 출발지를 기준으로 묶은 디렉토리
+{'ICN': ['SFO', 'ATL'], 'SFO': ['ATL'], 'ATL': ['ICN', 'SFO']}
