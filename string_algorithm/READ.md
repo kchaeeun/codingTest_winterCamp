@@ -17,6 +17,7 @@
 # 입출력 예 설명
 입출력 예 #1
 * "people"에서 중복된 문자 "p"와 "e"을 제거한 "peol"을 return합니다.
+
 입출력 예 #2
 * "We are the world"에서 중복된 문자 "e", " ", "r" 들을 제거한 "We arthwold"을 return합니다.
 ---
@@ -37,8 +38,10 @@
 # 입출력 예 설명
 입출력 예 #1
 * "abcabcadc"에서 하나만 등장하는 문자는 "d"입니다.
+
 입출력 예 #2
 * "abdc"에서 모든 문자가 한 번씩 등장하므로 사전 순으로 정렬한 "abcd"를 return 합니다.
+
 입출력 예 #3
 * "hello"에서 한 번씩 등장한 문자는 "heo"이고 이를 사전 순으로 정렬한 "eho"를 return 합니다.
 ---
@@ -57,16 +60,18 @@
 참고로 각 숫자에 대응되는 영단어는 다음 표와 같습니다.
 
 숫자	영단어
-0	    zero
-1	    one
-2	    two
-3	    three
-4	    four
-5	    five
-6	    six
-7	    seven
-8	    eight
-9	    nine
+|숫자   |영단어   |
+|---|---|
+|0   |zero   |
+|1   |one   |
+|2   |two   |
+|3   |three   |
+|4   |four   |
+|5   |five   |
+|6   |six   |
+|7   |seven   |
+|8   |eight   |
+|9   |nine
 
 # 제한사항
 * 1 ≤ s의 길이 ≤ 50
