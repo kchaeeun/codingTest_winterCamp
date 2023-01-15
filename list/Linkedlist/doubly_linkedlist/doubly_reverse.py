@@ -22,7 +22,7 @@ class DoublyLinkedList:
         if self.nodeCount == 0:
             return []
         
-        curr = self.tail            #tail은 더미노드다(즉 데이터 x)
+        curr = self.tail                        #tail은 더미노드다(즉 데이터 x)
         item = []
         
         while len(item) < self.nodeCount :      #양방향 연결리스트에 있는 데이터 수보다 저장공간이 같아지는 순간 
