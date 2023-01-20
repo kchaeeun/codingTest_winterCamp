@@ -9,7 +9,7 @@ class MaxHeap:
         if len(self.data) > 1:
             self.data[1], self.data[-1] = self.data[-1], self.data[1]
             data = self.data.pop(-1)
-            self.maxHeapify(1)
+            self.maxHeapify(1)          #루트노드 시작(인덱스 : 1)
         else:
             data = None
         return data
