@@ -9,3 +9,8 @@
 ---
 문제 설명
 Python 의 내장 데이터형인 리스트 (list) 를 이용하여 환형 큐의 추상적 자료 구조를 구현한 클래스 CircularQueue 를 완성하세요.
+---
+문제 설명
+앞선 강의에서 소개된 양방향 연결 리스트의 추상적 자료구조 구현인 클래스 DoublyLinkedList 를 이용하여 우선순위 큐의 추상적 자료구조인 클래스 PriorityQueue 의 구현을 완성하세요.
+
+코드의 윗부분은 양방향 연결 리스트를 이용하기 위한 클래스 Node 와 DoublyLinikedList 의 구현입니다. 그대로 둔 채, 아래에 있는 class PriorityQueue 의 메서드들 중 enqueue() 메서드의 구현을 위한 빈 칸 채우기만 완성하면 됩니다.
